@@ -13,7 +13,8 @@ function validarEmail () {
     }else {
         console.log("El correo electronico NO es valido.");
         email.style.border = "1px solid hsl(354, 100%, 66%)";
-        or.style.display = "block"
+        or.style.display = "block";
+        
     }
 }
 
